@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Simply';
+    src: url('../font/Simply_Rounded.ttf')format('truetype');
+}
+body{
+    height: 100%;
+    background-color: #0b7285;
+    /*background-image: linear-gradient(to bottom, #0b9d7b, #0b7285);*/
+    font-family: 'Simply';
+    background-repeat: no-repeat;
+}
+#titulo{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#painel{
+    background-color: #0b8c7e;
+    padding:20px;
+    height: 500px;
+    overflow-y: auto;
+    max-height: 500px;
+}
+#mensagem{
+   background-color: #0b7285;
+   color: white;
+   padding:10px;
+   word-wrap: break-word;
+   border:solid 2px #0b7285;
+   border-radius:40px 40px 40px 0px;
+}
+
+
+#mensagem-usuario{
+    margin-top: 20px;
+    background-color: #1096ad;
+    color: white;
+    padding:10px;
+    word-wrap: break-word;
+    border:solid 2px #1096ad;
+    border-radius:40px 40px 0px 40px;
+}
+#campo-texto{
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+#text-area{
+    resize: none;
+    font-size: 25px;
+}
+#btn-enviar-mensagem{
+
+    font-size: 20px;
+    background-color: #5da222;
+    color: white;
+    width: 100%;
+
+}
+#btn-voltar-menu{
+
+    width: 100%;
+    font-size: 20px;
+    border: none;
+}
+#btn-enviar-mensagem:active{
+
+    background-color: #74b816;
+    color: white;
+
+}
+#icone-online{
+    color: #aaffaa;
+}
+#icone-offline{
+    color: #ff4444;
+}
+.data-mensagem{
+    font-size: 14px;
+}
+.mensagem{
+    font-size: 18px;
+}

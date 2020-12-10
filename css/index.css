@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Simply';
+    src: url('../font/Simply_Rounded.ttf')format('truetype');
+}
+@media screen and (max-width: 1000px) {
+
+    #rodape{
+        height: 25px!important;
+    }
+
+    #informacoes-extras-conteudo{
+        margin-top: 0px!important;
+    }
+
+    #informacoes{
+        padding-top: 0px!important;
+    }
+
+}
+body{
+    height: 100%;
+    background-color: #0b7285;
+    font-family: 'Simply';
+    background-repeat: no-repeat;
+}
+
+
+
+#titulo{
+    margin-top: 50px;
+}
+#titulo-texto{
+    font-size: 70px;
+    color: white;
+}
+#informacoes{
+    color: white;
+    margin-top: 50px;
+    font-size: 28px;
+    padding-top: 70px;
+}
+#informacoes-extras li{
+    margin: 3px;
+    color: white;
+    background-color: #0d8499;
+}
+#informacoes-extras-conteudo{
+    margin-top: 90px;
+}
+
+
+
+
+#rodape{
+    bottom: 0;
+    position: fixed;
+    background-color:  #085760;
+    color: white;
+    height: 60px;
+}
+
+
+
+/*/INICIO PAINEL ENTRAR/*/
+
+#telefone-texto, #senha-texto{
+    height: 40px;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+#span-telefone-texto, #span-senha-texto{
+    font-size: 20px;
+    background-color: #0b7285;
+    color: white;
+    border: none;
+}
+#painel-entrar{
+    margin-top: 50px;
+    background-color: #0d8499;
+}
+
+#btn-entrar-chat{
+    font-size: 17px;
+    background-color: #5da222;
+    color: white;
+    width: 120px;
+    margin: 5px;
+}
+#btn-criar-conta{
+    background-color: #087f5b;
+    font-size: 17px;
+    color: white;
+    width: 120px;
+    margin: 5px;
+}
+#btn-entrar-chat:active{
+    background-color: #74b816;
+    color: white;
+}
+#btn-criar-conta:active{
+    background-color: #0aa778;
+    color: white;
+}
+/*/FIM PAINEL ENTRAR/*/
+
+
+
+
+/*/INICIO MODAL REGISTRAR/*/
+
+#senha-cadastro, #telefone-cadastro, #nome-cadastro{
+
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+#span-senha-cadastro, #span-telefone-cadastro, #span-nome-cadastro{
+
+    font-size: 20px;
+    background-color: #0b7285;
+    color: white;
+    border: none;
+}
+
+#corpo-modal-cadastrar-usuario{
+    background-color: #0d8499;
+}
+
+
+#rodape-modal-cadastrar-usuario{
+    background-color: #0d8499;
+    border-top:none;
+    padding:none;
+}
+
+
+#topo-modal-cadastrar-usuario{
+    background-color: #0d8499;
+    border-bottom:none;
+    padding:none;
+}
+
+
+#btn-registrar-usuario-modal{
+    background-color: #74b816;
+    color: white;
+    margin: 5px;
+}
+
+
+#btn-registrar-usuario-modal:active{
+    background-color: #0aa778;
+    color: white;
+}
+#btn-voltar-modal{
+    margin: 5px;
+}
+
+
+
+/*/FIM MODAL REGISTRAR/*/
