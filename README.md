@@ -26,7 +26,7 @@ Podemos listar os usuários cadastrados, conversar com eles e bloqueá-los.
 configuradas no projeto, por isso vá ao arquivo no diretório `\chat-br-php\bd\conexao_bd.php` e configure a variável `$servidor` com localhost e porta
 específica que o Wamp gerou na sua máquina.
 
-`2` Importe o banco de dados localizado no diretório `\chat-br-php\banco_de_dados\chat.sql`
+`2` Importe o banco de dados localizado no diretório `\chat-br-php\banco_de_dados\chat.sql` para o MySql
 
 Logo após as etapas, rode o projeto acessando o localhost do Wamp e aproveite.
 
