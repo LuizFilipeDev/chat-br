@@ -32,4 +32,4 @@ Logo após as etapas, rode o projeto acessando o localhost do Wamp e aproveite.
 
 ## Sobre
 
-Aplicação desenvolvida utilizando as seguintes tecnologias: Wamp (Servidor Local), MySql (Banco de dados), PHP e Bootstrap.
+Aplicação desenvolvida utilizando as seguintes tecnologias: Wamp (Servidor Local), MySql (Banco de dados), PHP, HTML, CSS, JavaScript e Bootstrap.
