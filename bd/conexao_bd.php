@@ -1,6 +1,6 @@
 <?php
 
-    $servidor = "localhost:3308";
+    $servidor = "localhost:3306";
     $usuario = "root";
     $senha = "";
     $banco_de_dados = "chat";

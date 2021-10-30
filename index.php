@@ -142,7 +142,7 @@
 
             <div id = "rodape" class = "text-center col-sm-12 col-md-12 col-lg-12 col-xl-12">
 
-                <p>© ChatBr - Desenvolvido por Luiz Filipe</p>
+                <p>© ChatBr</p>
 
             </div>
 
