@@ -1,35 +1,35 @@
 # Chat Br
 
-Aplicação desenvolvida com foco nos estudos de php. Chat Br é uma aplicação parecida com Whatsapp porém com acesso global de contatos e layout único, sistema completo de cadastro de números, conversas e bloqueio de números.
+Application developed with a focus on PHP studies. Chat Br is an application similar to Whatsapp but with global access to contacts and a unique layout, a complete system for registering numbers, conversations and blocking numbers.
 
 ## Interface
 
-Tela inicial e Tela de cadastro
+Home screen and registration screen
 
 ![01](https://user-images.githubusercontent.com/74942532/139557229-7f555a67-2c3e-4529-be26-e16dfc07c0e1.png)
 
-Tela com as opções de conversas, contatos e contatos bloqueados
+Screen with options for conversations, contacts and blocked contacts
 
 ![02](https://user-images.githubusercontent.com/74942532/139557252-c74e7c81-0fb0-4104-8ecd-11f7e0d2522a.png)
 
-Tela do chat
+Chat screen
 
 ![03](https://user-images.githubusercontent.com/74942532/139557274-a9931e69-645c-495e-8ec0-9e2add66aed7.png)
 
-## Quais são as funções?
+## What are the functions?
 
-Podemos listar os usuários cadastrados, conversar com eles e bloqueá-los.
+We can list registered users, chat with them and block them.
 
-## Antes de rodar o projeto
+## Before running the project
 
-`1` Para rodar o projeto, utilizamos o Wamp(https://www.wampserver.com/en/) como nosso servidor local. O wamp por padrão pode gerar portas diferentes das
-configuradas no projeto, por isso vá ao arquivo no diretório `\chat-br-php\bd\conexao_bd.php` e configure a variável `$servidor` com localhost e porta
-específica que o Wamp gerou na sua máquina.
+`1` To run the project, we use Wamp (https://www.wampserver.com/en/) as our local server. wamp by default can generate different ports than
+configured in the project, so go to the file in the directory `\chat-br-php\bd\conexao_bd.php` and configure the variable `$server` with localhost and port
+specific file that Wamp generated on your machine.
 
-`2` Importe o banco de dados localizado no diretório `\chat-br-php\banco_de_dados\chat.sql` para o MySql
+`2` Import the database located in the `\chat-br-php\banco_de_dados\chat.sql` directory into MySql
 
-Logo após as etapas, rode o projeto acessando o localhost do Wamp e aproveite.
+After the steps, access the Wamp localhost and enjoy.
 
-## Sobre
+## About
 
-Aplicação desenvolvida utilizando as seguintes tecnologias: Wamp (Servidor Local), MySql (Banco de dados), PHP, HTML, CSS, JavaScript e Bootstrap.
+Application developed using the following technologies: Wamp (Local Server), MySql (Database), PHP, HTML, CSS, JavaScript and Bootstrap.
